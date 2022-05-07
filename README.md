@@ -3,7 +3,7 @@
 ## Built With
 
 - Vue
-- Vuitify
+- Vuetify
 
 ## Getting Started
 
@@ -40,6 +40,9 @@ npm run lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## Helpful links
+
+- [Vuetify](https://vuetifyjs.com/en/getting-started/installation/#vue-cli-install)
+- [Vue CLI](https://cli.vuejs.org/guide/installation.html)
 
 ## Authors
 
