@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChartPage.vue should have a custom title and match snapshot 1`] = `
+<div class="chart">
+  <h1>Chart</h1>
+  <div id="mydiv">
+    <div id="mydivheader">Click here to move</div>
+  </div>
+</div>
+`;
