@@ -1,66 +1,31 @@
 <template>
   <v-app>
-    <v-app-bar app color="primary" dark>
-      <div class="d-flex align-center">
-        <h1>Test Project</h1>
-      </div>
 
-      <v-spacer></v-spacer>
-
-      <v-btn v-for="item in menuItems" :key="item.title" :to="item.path" text>
-        <span class="mr-2">{{ item.title }}</span>
-      </v-btn>
-    </v-app-bar>
+    <NavComponent />
 
     <v-main>
       <router-view></router-view>
     </v-main>
 
-    <v-footer dark padless>
-      <v-card flat tile class="indigo lighten-1 white--text text-center">
-        <v-card-text>
-          <v-btn v-for="icon in icons" :key="icon" class="mx-4 white--text" icon>
-            <v-icon size="24px">
-              {{ icon }}
-            </v-icon>
-          </v-btn>
-        </v-card-text>
+    <FooterComponent />
 
-        <v-card-text class="white--text pt-0">
-          Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet. Mauris cursus commodo interdum. Praesent
-          ut risus eget metus luctus accumsan id ultrices nunc. Sed at orci sed massa consectetur dignissim a sit amet
-          dui. Duis commodo vitae velit et faucibus. Morbi vehicula lacinia malesuada. Nulla placerat augue vel ipsum
-          ultrices, cursus iaculis dui sollicitudin. Vestibulum eu ipsum vel diam elementum tempor vel ut orci. Orci
-          varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-        </v-card-text>
-
-        <v-divider></v-divider>
-
-        <v-card-text class="white--text">
-          {{ new Date().getFullYear() }} — <strong>Vuetify</strong>
-        </v-card-text>
-      </v-card>
-    </v-footer>
   </v-app>
 </template>
 
 <script>
 
+import FooterComponent from './components/Footer.vue';
+import NavComponent from './components/Navbar.vue';
 
 export default {
   name: 'App',
 
+  components: {
+    NavComponent,
+    FooterComponent,
+  },
+
   data: () => ({
-    icons: [
-      'mdi-facebook',
-      'mdi-twitter',
-      'mdi-linkedin',
-      'mdi-instagram',
-    ],
-    menuItems: [
-      { title: 'Chart', path: '/' },
-      { title: 'Table', path: '/table' }
-    ],
   }),
 };
 </script>
