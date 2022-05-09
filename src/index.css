@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 #mydiv {
   position: absolute;
   z-index: 9;
@@ -15,6 +19,5 @@
   z-index: 10;
   background-color: #2196F3;
   color: #fff;
-  min-width: 1200px;
-  min-height: 600px;
+  width: 1500px;
 }
