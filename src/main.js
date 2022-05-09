@@ -1,12 +1,16 @@
+import '@mdi/font/css/materialdesignicons.css'
+import 'roboto-fontface/css/roboto/roboto-fontface.css'
 import Vue from 'vue'
 import App from './App.vue'
+import './index.css'
 import vuetify from './plugins/vuetify'
-import 'roboto-fontface/css/roboto/roboto-fontface.css'
-import '@mdi/font/css/materialdesignicons.css'
+import router from './routes'
 
 Vue.config.productionTip = false
 
 new Vue({
   vuetify,
-  render: h => h(App)
-}).$mount('#app')
+  el: '#app',
+  render: h => h(App),
+  router
+})

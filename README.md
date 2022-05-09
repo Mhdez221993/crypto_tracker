@@ -43,6 +43,10 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 - [Vuetify](https://vuetifyjs.com/en/getting-started/installation/#vue-cli-install)
 - [Vue CLI](https://cli.vuejs.org/guide/installation.html)
+- [Vuetify Application](https://vuetifyjs.com/en/components/application/#application-components)
+- [Vuetify Top Navbar](https://codesandbox.io/s/oj6vz06z86?file=/src/App.vue)
+- [Vue Testing Handbook](https://lmiller1990.github.io/vue-testing-handbook/vue-router.html#strategies-for-testing-router-hooks)
+- [Vue Test Utils](https://v1.test-utils.vuejs.org/guides/#using-with-typescript)
 
 ## Authors
 
