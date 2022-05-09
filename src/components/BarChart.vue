@@ -6,7 +6,7 @@
 import axios from 'axios'
 import { BarElement, CategoryScale, Chart as ChartJS, Legend, LinearScale, Title, Tooltip } from 'chart.js'
 import { Bar } from 'vue-chartjs/legacy'
-import mockData from '../helpers/mockData'
+import { mockData } from '../helpers/mockData'
 
 
 ChartJS.register(Title, Tooltip, Legend, BarElement, CategoryScale, LinearScale)

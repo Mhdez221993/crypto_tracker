@@ -1,5 +1,5 @@
 <template>
-  <v-app-bar app color="indigo" dark>
+  <v-app-bar>
     <v-toolbar-title>coindesk Chart Project</v-toolbar-title>
 
     <v-spacer></v-spacer>

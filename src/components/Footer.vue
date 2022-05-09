@@ -1,31 +1,22 @@
+
+
+
 <template>
 
-  <v-footer dark padless>
-    <v-card text tile class="indigo lighten-1 white--text text-center">
+  <v-footer padless>
 
-      <v-card-text>
-        <v-btn v-for="icon in icons" :key="icon" class="mx-4 white--text" icon>
-          <v-icon size="24px">
-            {{ icon }}
-          </v-icon>
-        </v-btn>
-      </v-card-text>
+    <v-row justify="center" no-gutters class="py-4">
 
-      <v-card-text class="white--text pt-0">
-        Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet. Mauris cursus commodo interdum. Praesent
-        ut risus eget metus luctus accumsan id ultrices nunc. Sed at orci sed massa consectetur dignissim a sit amet
-        dui. Duis commodo vitae velit et faucibus. Morbi vehicula lacinia malesuada. Nulla placerat augue vel ipsum
-        ultrices, cursus iaculis dui sollicitudin. Vestibulum eu ipsum vel diam elementum tempor vel ut orci. Orci
-        varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      </v-card-text>
+      <v-btn v-for="icon in icons" :key="icon.name" class="mx-4 white--text" icon :href="icon.path" target="_blank">
+        <v-icon size="24px">
+          {{ icon.name }}
+        </v-icon>
+      </v-btn>
 
-      <v-divider></v-divider>
-
-      <v-card-text class="white--text">
-        {{ new Date().getFullYear() }} — <strong>Vuetify</strong>
-      </v-card-text>
-
-    </v-card>
+      <v-col class="lighten-2 py-4 text-center white--text" cols="12">
+        {{ new Date().getFullYear() }} — <strong>Moises Hernandez</strong>
+      </v-col>
+    </v-row>
   </v-footer>
 
 </template>
@@ -40,10 +31,10 @@ export default {
 
   data: () => ({
     icons: [
-      'mdi-facebook',
-      'mdi-twitter',
-      'mdi-linkedin',
-      'mdi-instagram',
+      { name: 'mdi-facebook', path: "https://www.facebook.com/moises.hernandezcoronado" },
+      { name: 'mdi-twitter', path: 'https://twitter.com/MoisesH42060050' },
+      { name: 'mdi-linkedin', path: 'https://www.linkedin.com/in/moises-hdez-coronado/' },
+      { name: 'mdi-github', path: 'https://github.com/Mhdez221993' },
     ],
   }),
 };
