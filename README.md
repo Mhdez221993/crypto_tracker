@@ -47,6 +47,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - [Vuetify Top Navbar](https://codesandbox.io/s/oj6vz06z86?file=/src/App.vue)
 - [Vue Testing Handbook](https://lmiller1990.github.io/vue-testing-handbook/vue-router.html#strategies-for-testing-router-hooks)
 - [Vue Test Utils](https://v1.test-utils.vuejs.org/guides/#using-with-typescript)
+- [rapidapi](https://rapidapi.com/hub)
 
 ## Authors
 
