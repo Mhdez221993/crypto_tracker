@@ -48,6 +48,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - [Vue Testing Handbook](https://lmiller1990.github.io/vue-testing-handbook/vue-router.html#strategies-for-testing-router-hooks)
 - [Vue Test Utils](https://v1.test-utils.vuejs.org/guides/#using-with-typescript)
 - [rapidapi](https://rapidapi.com/hub)
+- [dark-mode](https://vuetifyjs.com/en/features/theme/#theme-generator)
 
 ## Authors
 
