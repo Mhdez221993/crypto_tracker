@@ -5,6 +5,8 @@ html {
   box-sizing: inherit;
 }
 
+/* Chart */
+
 .chart {
   position: relative;
   margin: 0 auto;
@@ -31,3 +33,10 @@ html {
     width: 100%;
   }
 }
+
+/* Table */
+
+.table {
+  padding: 20px;
+}
+
