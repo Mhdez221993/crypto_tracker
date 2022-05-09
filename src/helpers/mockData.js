@@ -1,4 +1,4 @@
-export default {
+const mockData = {
   "bpi": {
     "2019-01-01": 3869.47,
     "2019-01-02": 3941.2167,
@@ -372,3 +372,23 @@ export default {
     "updatedISO": "2020-01-01T00:03:00+00:00"
   }
 }
+
+const fetchData = (data = mockData) => {
+  let arrOfData = []
+  Object.entries(data.bpi).map((key) => {
+    arrOfData.push(
+      {
+        // value: false,
+        date: key[0],
+        price: key[1],
+        name: 'BTC'
+      }
+    )
+  });
+
+  return arrOfData
+}
+
+const mockTableData = fetchData()
+
+export { mockData, mockTableData };
