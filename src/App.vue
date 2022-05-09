@@ -3,7 +3,7 @@
 
     <NavComponent />
 
-    <v-main>
+    <v-main class="main">
       <router-view></router-view>
     </v-main>
 
@@ -14,8 +14,8 @@
 
 <script>
 
-import FooterComponent from './components/Footer.vue';
-import NavComponent from './components/Navbar.vue';
+import FooterComponent from '@/components/Footer.vue';
+import NavComponent from '@/components/Navbar.vue';
 
 export default {
   name: 'App',

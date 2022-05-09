@@ -1,8 +1,6 @@
 <template>
-  <v-app-bar app color="primary" dark>
-    <div class="d-flex align-center">
-      <h1>Test Project</h1>
-    </div>
+  <v-app-bar app color="indigo" dark>
+    <v-toolbar-title>coindesk Chart Project</v-toolbar-title>
 
     <v-spacer></v-spacer>
 
@@ -10,7 +8,6 @@
       <span class="mr-2">{{ item.title }}</span>
     </v-btn>
   </v-app-bar>
-
 </template>
 
 <script>
