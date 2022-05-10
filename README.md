@@ -55,6 +55,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - [dark-mode](https://vuetifyjs.com/en/features/theme/#theme-generator)
 - [Unknown custom element: <v-btn>](https://stackoverflow.com/questions/68021890/unknown-custom-element-v-btn-after-installing-vuetify)
 - [Testing Vue Component with Mocha and Chai](https://webomnizz.com/testing-vue-component-with-mocha-and-chai/)
+- [vue-chartjs](https://vue-chartjs.org/examples/#vue-3-charts)
 
 ## Authors
 
