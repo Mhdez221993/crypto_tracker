@@ -22,12 +22,12 @@ export default {
   data: () => ({
     menuItems: [
       {
-        title: 'Chart',
-        path: '/'
+        path: '/',
+        title: 'Chart'
       },
       {
-        title: 'Table',
-        path: '/table'
+        path: '/table',
+        title: 'Table'
       }
     ],
   }),
