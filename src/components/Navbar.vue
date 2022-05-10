@@ -5,7 +5,7 @@
     <v-spacer></v-spacer>
 
     <v-btn v-for="item in menuItems" :key="item.title" :to="item.path" text class="mr-3">
-      <span class="mr-2">{{ item.title }}</span>
+      <span class="mr-2 nav-button">{{ item.title }}</span>
     </v-btn>
 
   </v-app-bar>
@@ -22,12 +22,12 @@ export default {
   data: () => ({
     menuItems: [
       {
-        title: 'Chart',
-        path: '/'
+        path: '/',
+        title: 'Chart'
       },
       {
-        title: 'Table',
-        path: '/table'
+        path: '/table',
+        title: 'Table'
       }
     ],
   }),

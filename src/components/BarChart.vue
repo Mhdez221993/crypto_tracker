@@ -1,33 +1,74 @@
 <template>
-  <Bar :chart-data="chartData" :styles="myStyles" class="bar" />
+  <Bar :chart-options="chartOptions" :chart-data="chartData" :chart-id="chartId" :dataset-id-key="datasetIdKey"
+    :plugins="plugins" :css-classes="cssClasses" :styles="styles" :width="width" :height="height" />
 </template>
 
 <script>
-
 import axios from 'axios'
-import { BarElement, CategoryScale, Chart as ChartJS, Legend, LinearScale, Title, Tooltip } from 'chart.js'
+import {
+  BarElement,
+  CategoryScale, Chart as ChartJS, Legend, LinearScale, Title,
+  Tooltip
+} from 'chart.js'
 import { Bar } from 'vue-chartjs/legacy'
 import { mockData } from '../helpers/mockData'
+
 
 
 ChartJS.register(Title, Tooltip, Legend, BarElement, CategoryScale, LinearScale)
 
 export default {
   name: 'BarChart',
-
-  components: { Bar },
-
-  data: () => ({
-    chartData: {
-      datasets: [
-        {
-          data: mockData.bpi,
-          label: 'Mock Data BPI',
-          backgroundColor: '#f87979'
-        }
-      ]
+  components: {
+    Bar
+  },
+  props: {
+    chartId: {
+      type: String,
+      default: 'bar-chart'
+    },
+    datasetIdKey: {
+      type: String,
+      default: 'label'
+    },
+    width: {
+      type: Number,
+      default: 400
+    },
+    height: {
+      type: Number,
+      default: 400
+    },
+    cssClasses: {
+      default: '',
+      type: String
+    },
+    styles: {
+      type: Object,
+      default: () => { }
+    },
+    plugins: {
+      type: Array,
+      default: () => []
     }
-  }),
+  },
+  data() {
+    return {
+      chartData: {
+        datasets: [
+          {
+            label: 'Mock Data BPI',
+            backgroundColor: '#f87979',
+            data: mockData.bpi,
+          }
+        ]
+      },
+      chartOptions: {
+        responsive: true,
+        maintainAspectRatio: false
+      }
+    }
+  },
 
   async mounted() {
     this.loaded = false
@@ -50,16 +91,6 @@ export default {
 
     } catch (e) {
       console.error(e)
-    }
-  },
-
-  computed: {
-    myStyles() {
-      return {
-        width: '100%;',
-        height: '100%',
-        position: 'relative'
-      }
     }
   }
 }

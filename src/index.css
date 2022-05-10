@@ -11,16 +11,17 @@ html {
 .chart {
   position: relative;
   margin: 0 auto;
-  width: 600px;
+  max-width: 1700px;
   height: 75vh;
   padding-top: 20px;
 }
 
 #mydiv {
-  width: 100%;
+  width: 96%;
   position: absolute;
   border: 1px solid #d3d3d3;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 0 2%;
 }
 
 .mydivheader {

@@ -3,7 +3,7 @@
 
     <div id="mydiv" v-on:click="dragElement">
       <div class="mydivheader">
-        <BarChart />
+        <LineChart />
       </div>
     </div>
 
@@ -12,14 +12,14 @@
 
 <script>
 
-import BarChart from '@/components/BarChart.vue'
+import LineChart from '@/components/BarChart.vue'
 import dragger from '@/helpers/dragger'
 
 export default {
   name: 'ChartPage',
 
   components: {
-    BarChart,
+    LineChart,
   },
 
   methods: {
