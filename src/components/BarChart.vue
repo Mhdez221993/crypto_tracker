@@ -37,7 +37,7 @@ export default {
     },
     height: {
       type: Number,
-      default: 400
+      default: 600
     },
     cssClasses: {
       default: '',
@@ -91,6 +91,14 @@ export default {
 
     } catch (e) {
       console.error(e)
+    }
+  },
+
+  computed: {
+    myStyles() {
+      return {
+        position: 'relative'
+      }
     }
   }
 }

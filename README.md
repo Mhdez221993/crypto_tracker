@@ -4,10 +4,22 @@ This is a Vue project designed to track crypto coin prices. You can see the pric
 Also, you can interact with the table, which is a multicolumn sorting or preferer to find a
 specific price or date, you can filter by custom input.
 
+[Go Live](https://wonderful-fenglisu-f68b01.netlify.app/)
+
+## Chart view
+
+![table_view](https://user-images.githubusercontent.com/67757001/167733702-5ac07744-b808-47c9-9714-214c31a26f02.PNG)
+
+## Table view
+
+![chart_view](https://user-images.githubusercontent.com/67757001/167734922-6c23bbb0-e0e6-413b-a4ce-ee2b902c83dc.PNG)
+
 ## Built With
 
 - Vue
 - Vuetify
+- JavaScript
+- CSS
 
 ## Getting Started
 
