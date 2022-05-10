@@ -53,6 +53,8 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - [Vue Test Utils](https://v1.test-utils.vuejs.org/guides/#using-with-typescript)
 - [rapidapi](https://rapidapi.com/hub)
 - [dark-mode](https://vuetifyjs.com/en/features/theme/#theme-generator)
+- [Unknown custom element: <v-btn>](https://stackoverflow.com/questions/68021890/unknown-custom-element-v-btn-after-installing-vuetify)
+- [Testing Vue Component with Mocha and Chai](https://webomnizz.com/testing-vue-component-with-mocha-and-chai/)
 
 ## Authors
 
