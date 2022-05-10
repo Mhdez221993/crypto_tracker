@@ -1,4 +1,8 @@
-# test-vue
+# Crypto Price Tracker
+
+This is a Vue project designed to track crypto coin prices. You can see the prices in chart and table mode.
+Also, you can interact with the table, which is a multicolumn sorting or preferer to find a
+specific price or date, you can filter by custom input.
 
 ## Built With
 
@@ -47,6 +51,8 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - [Vuetify Top Navbar](https://codesandbox.io/s/oj6vz06z86?file=/src/App.vue)
 - [Vue Testing Handbook](https://lmiller1990.github.io/vue-testing-handbook/vue-router.html#strategies-for-testing-router-hooks)
 - [Vue Test Utils](https://v1.test-utils.vuejs.org/guides/#using-with-typescript)
+- [rapidapi](https://rapidapi.com/hub)
+- [dark-mode](https://vuetifyjs.com/en/features/theme/#theme-generator)
 
 ## Authors
 

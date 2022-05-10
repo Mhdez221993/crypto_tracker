@@ -8,7 +8,6 @@ const routes = [
     path: '/',
     component: ChartPage,
   },
-
   {
     path: '/table',
     component: TablePage,
