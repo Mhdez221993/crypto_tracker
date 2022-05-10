@@ -1,12 +1,12 @@
 import Vue from "vue"
 import Router from "vue-router"
-import ChartPage from './views/ChartPage.vue'
+import BarPage from './views/BarPage.vue'
 import TablePage from './views/TablePage.vue'
 
 const routes = [
   {
     path: '/',
-    component: ChartPage,
+    component: BarPage,
   },
   {
     path: '/table',
