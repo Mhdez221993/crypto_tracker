@@ -2,7 +2,7 @@
   <v-card>
 
     <v-card-title>
-      BTC Price
+      {{ title }}
 
       <v-spacer></v-spacer>
       <v-text-field v-model="search" append-icon="mdi-magnify" label="Search" single-line hide-details></v-text-field>
@@ -24,6 +24,7 @@ export default {
 
   data() {
     return {
+      title: 'BTC Price',
       sortBy: 'fat',
       sortDesc: false,
       search: '',
