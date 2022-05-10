@@ -1,7 +1,8 @@
 <template>
   <v-card>
+
     <v-card-title>
-      Nutrition
+      BTC Price
 
       <v-spacer></v-spacer>
       <v-text-field v-model="search" append-icon="mdi-magnify" label="Search" single-line hide-details></v-text-field>
@@ -20,11 +21,13 @@ import axios from 'axios'
 
 export default {
   name: 'TableData',
+
   data() {
     return {
       sortBy: 'fat',
       sortDesc: false,
       search: '',
+
       headers: [
         {
           text: 'Coin',
@@ -44,6 +47,7 @@ export default {
       data: mockTableData
     }
   },
+
   methods: {
     toggleOrder() {
       this.sortDesc = !this.sortDesc
@@ -74,4 +78,5 @@ export default {
     }
   },
 }
+
 </script>

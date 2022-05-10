@@ -1,7 +1,9 @@
 <template>
+
   <div class="table">
     <TableData />
   </div>
+
 </template>
 
 <script>
@@ -15,4 +17,5 @@ export default {
     TableData,
   }
 }
+
 </script>

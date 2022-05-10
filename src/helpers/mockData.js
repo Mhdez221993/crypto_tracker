@@ -1,3 +1,5 @@
+// This file is loaded first, when the data is fetched with axios is not used any more
+
 const mockData = {
   "bpi": {
     "2019-01-01": 3869.47,
@@ -375,10 +377,11 @@ const mockData = {
 
 const fetchData = (data = mockData) => {
   let arrOfData = []
+
   Object.entries(data.bpi).map((key) => {
+
     arrOfData.push(
       {
-        // value: false,
         date: key[0],
         price: key[1],
         name: 'BTC'
@@ -390,5 +393,4 @@ const fetchData = (data = mockData) => {
 }
 
 const mockTableData = fetchData()
-
 export { mockData, mockTableData };

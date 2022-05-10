@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -39,4 +40,3 @@ html {
 .table {
   padding: 20px;
 }
-
