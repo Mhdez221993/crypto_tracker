@@ -11,7 +11,6 @@ html {
 .chart {
   position: relative;
   margin: 0 auto;
-  max-width: 1700px;
   height: 75vh;
   padding-top: 20px;
 }
