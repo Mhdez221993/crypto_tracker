@@ -10,29 +10,22 @@ html {
 
 .chart {
   position: relative;
-  margin: 0 auto;
+  margin: 30px 20px;
   height: 75vh;
   padding-top: 20px;
 }
 
 #mydiv {
-  width: 96%;
+  width: 100%;
   position: absolute;
   border: 1px solid #d3d3d3;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  margin: 0 2%;
 }
 
 .mydivheader {
   cursor: move;
   padding: 10px;
   color: #fff;
-}
-
-@media only screen and (max-width: 600px){
-	.chart {
-    width: 100%;
-  }
 }
 
 /* Table */
