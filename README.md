@@ -1,7 +1,7 @@
 # Crypto Price Tracker
 
 This is a Vue project designed to track crypto coin prices. You can see the prices in chart and table mode.
-Also, you can interact with the table, which is a multicolumn sorting or preferer to find a
+Also, you can interact with the table, which is multicolumn sorting or preferer to find a
 specific price or date, you can filter by custom input.
 
 [Go Live](https://wonderful-fenglisu-f68b01.netlify.app/)
