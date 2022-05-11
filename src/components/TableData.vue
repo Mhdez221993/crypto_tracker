@@ -1,5 +1,5 @@
 <template>
-  <v-card>
+  <v-card class="mb-5">
 
     <v-card-title>
       {{ title }}
@@ -15,8 +15,7 @@
 
 <script>
 
-import updateData from '@/helpers/converData'
-import { mockTableData } from '@/helpers/mockData'
+import { mockTableData, updateData } from '@/helpers'
 import axios from 'axios'
 
 export default {
