@@ -4,12 +4,17 @@
     <NavComponent />
 
     <v-main class="main">
-      <draggable v-model="tabs" class="container">
+      <v-container>
+        <v-column>
 
-        <BarChart />
-        <TableData />
+          <draggable v-model="tabs">
+            <BarChart />
+            <TableData />
+          </draggable>
 
-      </draggable>
+        </v-column>
+      </v-container>
+
     </v-main>
 
     <FooterComponent />
