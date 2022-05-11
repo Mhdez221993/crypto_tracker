@@ -5,31 +5,3 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
-
-/* Chart */
-
-.chart {
-  position: relative;
-  margin: 30px 20px;
-  height: 75vh;
-  padding-top: 20px;
-}
-
-#mydiv {
-  width: 100%;
-  position: absolute;
-  border: 1px solid #d3d3d3;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
-.mydivheader {
-  cursor: move;
-  padding: 10px;
-  color: #fff;
-}
-
-/* Table */
-
-.table {
-  padding: 20px;
-}
