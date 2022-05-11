@@ -4,7 +4,12 @@
     <NavComponent />
 
     <v-main class="main">
-      <router-view></router-view>
+      <draggable v-model="tabs" class="container">
+
+        <BarChart />
+        <TableData />
+
+      </draggable>
     </v-main>
 
     <FooterComponent />
@@ -14,14 +19,20 @@
 
 <script>
 
+import BarChart from '@/components/BarChart.vue';
 import FooterComponent from '@/components/Footer.vue';
 import NavComponent from '@/components/Navbar.vue';
+import TableData from '@/components/TableData.vue';
+import draggable from "vuedraggable";
 
 export default {
   name: 'App',
 
   components: {
     NavComponent,
+    draggable,
+    BarChart,
+    TableData,
     FooterComponent,
   },
 
@@ -30,4 +41,3 @@ export default {
 }
 
 </script>
-
