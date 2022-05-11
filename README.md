@@ -68,6 +68,8 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - [Unknown custom element: <v-btn>](https://stackoverflow.com/questions/68021890/unknown-custom-element-v-btn-after-installing-vuetify)
 - [Testing Vue Component with Mocha and Chai](https://webomnizz.com/testing-vue-component-with-mocha-and-chai/)
 - [vue-chartjs](https://vue-chartjs.org/examples/#vue-3-charts)
+- [vue-draggable]<https://medium.com/vuetify/drag-n-drop-in-vuetify-part-i-166f2c7a4a82>
+- [Grid system](https://vuetifyjs.com/en/components/grids/)
 
 ## Authors
 
