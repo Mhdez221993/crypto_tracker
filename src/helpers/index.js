@@ -392,5 +392,24 @@ const fetchData = (data = mockData) => {
   return arrOfData
 }
 
+const updateData = (data = {}) => {
+  let newData = []
+
+  Object.entries(data.bpi).map((key) => {
+
+    newData.push(
+      {
+        date: key[0],
+        price: key[1],
+        name: 'BTC'
+      }
+    )
+  })
+
+  return newData
+}
+
 const mockTableData = fetchData()
-export { mockData, mockTableData };
+
+export { mockData, mockTableData, updateData };
+

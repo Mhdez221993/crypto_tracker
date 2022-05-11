@@ -4,10 +4,6 @@
     <v-toolbar-title>Crypto Price Tracker</v-toolbar-title>
     <v-spacer></v-spacer>
 
-    <v-btn v-for="item in menuItems" :key="item.title" :to="item.path" text class="mr-3">
-      <span class="mr-2 nav-button">{{ item.title }}</span>
-    </v-btn>
-
   </v-app-bar>
 </template>
 
@@ -20,16 +16,6 @@ export default {
   },
 
   data: () => ({
-    menuItems: [
-      {
-        path: '/',
-        title: 'Chart'
-      },
-      {
-        path: '/table',
-        title: 'Table'
-      }
-    ],
   }),
 }
 

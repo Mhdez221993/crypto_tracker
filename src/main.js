@@ -4,13 +4,11 @@ import Vue from 'vue'
 import App from './App.vue'
 import './index.css'
 import vuetify from './plugins/vuetify'
-import router from './routes'
 
 Vue.config.productionTip = false
 
 new Vue({
   vuetify,
   el: '#app',
-  render: h => h(App),
-  router
+  render: h => h(App)
 })
