@@ -1,7 +1,8 @@
 {
-  "name": "test-vue",
+  "name": "crypto_tracker",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://mhdez221993.github.io/crypto_tracker/",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
